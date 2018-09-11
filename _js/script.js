@@ -1,7 +1,7 @@
 //Enviar mensagem direta
 function enviarMensagem() {
-	campotexto = document.getElementById('campotexto').value;
-	email = document.getElementById('email').value;
+	var campotexto = document.getElementById('campotexto').value;
+	var email = document.getElementById('email').value;
 
 	if(email == '') {
 		alert("Preencha o campo de email!");
