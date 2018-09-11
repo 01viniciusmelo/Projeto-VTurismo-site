@@ -1,0 +1,126 @@
+/*Parte geral do site*/
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: url(../_img/fundo-madeira.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: white;
+}
+
+/*Barra de navegação*/
+.navbar-transparente {
+	background: rgba(0,0,0,.9);
+	padding: 5px;
+}
+
+/*Menu*/
+#menu ul li a {
+	color: white;
+	background: rgba(0,0,0,.9);
+}
+
+#menu ul li a:hover {
+	color: rgb(0,191,255);
+}
+
+/*Logo*/
+#logo {
+	height: 60px;
+	width: 110px;
+	margin-top: -20px;
+}
+
+
+/*Carrossel*/
+div.carousel-inner {
+	margin-top: 60px;
+	max-height: 400px;
+}
+
+/*conteudo*/
+.conteudo {
+	background: rgba(0,0,0,.8);
+	padding: 10px;
+	border: 1px solid rgb(0,191,255);
+}
+
+/*Imagens*/
+.direita-cima {
+	width: 400px;
+	height: 200px;
+	float: right;
+	padding-left: 10px;
+}
+
+.direita-cima-arredondada {
+	width: 400px;
+	height: 200px;
+	float: right;
+	padding-left: 10px;
+	border-radius: 20px;
+}
+
+
+/*imagem no lugar do carrossel*/
+.img-pag {
+	margin-top: 50px;
+	width: 1200px;
+	height: 300px;
+}
+
+
+/*rodapé*/
+#rodape {
+	background: rgba(0,0,0,.9);
+	padding: 10px;
+	margin-top: 10px;
+}
+/*lista rodape*/
+#lista-rodape {
+	list-style: none;
+}
+
+#lista-rodape li a {
+	color: rgb(128,128,128);
+	text-decoration: none;
+}
+
+#lista-rodape li a:hover {
+	color: rgb(0,191,255);
+	text-decoration: none;
+}
+
+/*imagens-rodape*/
+.rodape-img {
+	width: 80px;
+	height: 80px;
+}
+
+/*imagens_rodape_redes-sociais*/
+#redes-sociais{
+	list-style: none;
+}
+
+#redes-sociais li {
+	display: inline;
+}
+
+
+/*textos*/
+h1 {
+	border-bottom: 1px solid rgb(0,191,255);
+}
+
+h2 {
+	border-bottom: 1px solid rgb(0,191,255);
+}
+
+.abaixo-video>h1 {
+	margin-top: -300px;
+}
