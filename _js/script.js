@@ -1,4 +1,4 @@
-//Enviar mensagem direta
+//Enviar mensagem direta - contato
 function enviarMensagem() {
 	var campotexto = document.getElementById('campotexto').value;
 	var email = document.getElementById('email').value;
