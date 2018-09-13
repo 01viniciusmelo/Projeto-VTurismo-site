@@ -1,17 +1,22 @@
 //Enviar mensagem direta - contato
-function enviarMensagem() {
-	var campotexto = document.getElementById('campotexto').value;
-	var email = document.getElementById('email').value;
+(function(){
 
-	if(email == '') {
-		alert("Preencha o campo de email!");
-	}
+    'use strict';
+    var $form = document.querySelector('form');
+    var $txtEmail = document.getElementById('txtEmail');
+    var $msg = document.getElementById('msg');
+    var $btn = document.getElementById('btn');
 
-	if(campotexto == '') {
-		alert("O campo da mensagem está vazia!");
-	}
+    $form.addEventListener('submit', function(e){
 
-	else {
-		alert("Mensagem enviada, responderemos o mais rápido possível, obrigado!");
-	}
-}
+        if(!$txtEmail.value || !$msg.value){
+            alert("Preencha todos os campos!")
+            e.preventDefault();
+        
+        } else{
+            alert("mensagem enviada!");
+        }
+
+    })
+
+})()

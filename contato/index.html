@@ -14,9 +14,6 @@
     <!-- Estilo CSS -->
     <link rel="stylesheet" type="text/css" href="../_css/estilo.css"/>
 
-    <!-- Script JS -->
-    <script language="JavaScript" src="../_js/script.js"></script>
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -72,17 +69,24 @@
           <h2>Envie-nos uma mensagem direta:</h2>
           <div class="redor-formulario">
              
-            <form class="form-group">
-              <label for="email">E-mail</label>
-              <input id="email" type="email" class="form-control"/>            
-            </form>
+            <form action="#" method="Post">
+
+              <!-- email -->
+              <div class="form-group">
+                <label for="txtEmail">E-mail</label>
+                <input id="txtEmail" type="email" class="form-control" name="email"/>            
+              </div>
+              
+              <!--  mensagem -->
+              <textarea class="form-control" placeholder="Sua mensagem..." 
+                style="width: 100%; height: 100px; color: black;" id="msg"></textarea>
+
+                <br/>
+
+              <!-- botao -->
+              <input type="submit" id="btn" value="Enviar" class="btn btn-primary"/>
             
-            <textarea class="form-control" placeholder="Sua mensagem..." 
-            style="width: 100%; height: 100px; color: black;" id="campotexto"></textarea>
-
-            <br/>
-
-            <button type="button" class="btn btn-primary" onclick="enviarMensagem()">Enviar</button>
+            </form>
 
          </div><!-- /redor-formulario -->
 
@@ -144,5 +148,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../_bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Script JS -->
+    <script language="JavaScript" src="../_js/script.js"></script>
+
+
   </body>
 </html>
